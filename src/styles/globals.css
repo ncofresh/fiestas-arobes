@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+  font-family: theme('fontFamily.sans');
+}
+
+body {
+  background-color: theme('colors.blanco-roto');
+  color: theme('colors.gris-piedra');
+}
+
+.section-title {
+  @apply text-3xl md:text-4xl font-display font-bold text-verde-prado mb-8 text-center;
+}
