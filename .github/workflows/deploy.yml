@@ -4,7 +4,7 @@ on:
   # Se ejecuta cada vez que haces un "push" a la rama `main`
   push:
     branches:
-      - main
+      - master
   # Permite ejecutar este flujo de trabajo manualmente desde la pestaña Actions de GitHub
   workflow_dispatch:
 
